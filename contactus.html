@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>APARTMENT</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Logo-->
+  <link rel="shortcut icon" href="images/logotype-title.png" type="image/png">
+  <!--bootstap4-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <!-- build:css css/combined.css -->
+  <link rel="stylesheet" href="./css/vendors.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--Header (navigation menu)-->
+  <nav class="navbar navbar-expand-lg header-wrap container__white">
+    <div class="container">
+      <!--Logo-->
+      <a class="navbar-brand header-wrap__logo" href="index.html">
+        <img src="./images/logo.png" class="header-wrap__logo-img" alt="">
+      </a>
+      <!--Button nav mobile-->
+      <button class="header-wrap__toogler" type="button" data-target="#menuContent">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <!--Menu-->
+      <div class="header-menu" id="menuContent">
+        <ul class="navbar-nav header-menu__wrap">
+          <li class="nav-item dropdown header-menu__wrap-item menu-dropdown">
+            <a class="nav-link dropdown-toggle menu-link menu-link__toogle" href="home.html" id="navbarHome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu menu-dropdown__link" aria-labelledby="navbarHome">
+              <a class="dropdown-item menu-dropdown__link-item" href="home.html">Test Villa</a>
+              <a class="dropdown-item menu-dropdown__link-item" href="homeproperty.html">Our Property</a>
+              <a class="dropdown-item menu-dropdown__link-item" href="homeroom.html">Room</a>
+            </div>
+          </li>
+          <li class="nav-item header-menu__wrap-item">
+            <a class="nav-link menu-link" href="location.html">Location</a>
+          </li>
+          <li class="nav-item header-menu__wrap-item">
+            <a class="nav-link menu-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item header-menu__wrap-item">
+            <a class="nav-link menu-link" href="rooms.html">Rooms</a>
+          </li>
+          <li class="nav-item header-menu__wrap-item">
+            <a class="nav-link menu-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item header-menu__wrap-item">
+            <a class="nav-link menu-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item header-menu__wrap-item">
+            <a class="nav-link menu-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Header (navigation menu)-->
+  <!--Contact Us Images-->
+  <div class="slide-container text-center">
+    <img class="slide-container__img" src="./images/contactus.png" alt="">
+    <div class="slide-container__title">Contact Us</div>
+  </div>
+  <!--End Contact Us Images-->
+  <!--Leave a Message-->
+  <div class="container__white">
+    <div class="container">
+      <span class="message-title">Leave a Message</span>
+      <div class="row message-content">
+        <!--Form contact-->
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 message-form__margin">
+          <form class="message-form" id="contact-form" name="contact-form">
+            <div class="row">
+              <!--Name-->
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="md-form message-form__item">
+                  <input type="text" id="name" name="name" placeholder="Your Name" class="form-control message-form__item-content">
+                </div>
+              </div>
+              <!--Email-->
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="md-form message-form__item">
+                  <input type="text" id="email" name="email" placeholder="Your Email" class="form-control message-form__item-content">
+                </div>
+              </div>
+              <!--Message-->
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="md-form message-form__item message-form__item-text">
+                  <textarea type="text" id="message" name="message" rows="7" placeholder="Message" class="form-control message-form__item-content"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+          <!--Send button-->
+          <div class="message-btn text-md-left">
+            <button class="btn message-btn__item">SEND MESSADE</button>
+          </div>
+        </div>
+        <!--Address & Email-->
+        <div class="col-12 col-sm-12 offset-md-1 col-md-4 offset-lg-1 col-lg-4">
+          <ul class="list-unstyled contact-wrap">
+            <li class="contact-wrap__info">
+              <span class="contact-wrap__info-title">Address</span>
+              <div class="contact-wrap__info-content">
+                <svg class="contact-wrap__info-icon" width="35" height="50" viewBox="0 0 33 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.5004 10.3697C13.2004 10.3697 10.5391 13.0423 10.5391 16.3564C10.5391 19.6704 13.2004 22.343 16.5004 22.343C19.8004 22.343 22.4616 19.6704 22.4616 16.3564C22.4616 13.0423 19.8004 10.3697 16.5004 10.3697ZM16.5004 20.6325C14.1584 20.6325 12.2423 18.7083 12.2423 16.3564C12.2423 14.0045 14.1584 12.0802 16.5004 12.0802C18.8423 12.0802 20.7584 14.0045 20.7584 16.3564C20.7584 18.7083 18.8423 20.6325 16.5004 20.6325Z" fill="#E0B47B"/>
+                  <path d="M27.8906 4.91759C24.8035 1.81737 20.6519 0.106903 16.3939 0.106903C12.0293 0.106903 7.87773 1.81737 4.79063 4.91759C-0.957752 10.6904 -1.59646 21.3808 3.30031 28.0089L16.3939 47.0379L29.4874 28.1158C34.2777 21.4877 33.639 10.6904 27.8906 4.91759ZM27.9971 27.0468L16.2874 44.0445L4.57773 27.0468C0.213216 21.0601 0.851925 11.3318 5.9616 6.09354C8.72934 3.31403 12.3487 1.81737 16.2874 1.81737C20.2261 1.81737 23.8455 3.31403 26.6132 6.09354C31.8293 11.3318 32.4681 21.0601 27.9971 27.0468Z" fill="#E0B47B"/>
+                </svg>
+                <span class="contact-wrap__info-subtitle">1600 Pennsylvania Avenue <span class="contact-wrap__info-district">Washington DC, United States</span></span>
+              </div>
+            </li>
+            <li class="contact-wrap__info">
+              <span class="contact-wrap__info-title">Email</span>
+              <div class="contact-wrap__info-content">
+                <svg class="contact-wrap__info-icon" width="40" height="31" viewBox="0 0 40 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M38 0H2C0.898438 0 0 0.905617 0 2.01598V28.8931C0 30.0035 0.898438 30.9091 2 30.9091H38C39.1016 30.9091 40 30.0035 40 28.8931V2.01598C40 0.905617 39.1016 0 38 0ZM38.6641 28.8931C38.6641 29.2632 38.3672 29.5625 38 29.5625H2C1.63281 29.5625 1.33594 29.2632 1.33594 28.8931V2.01598C1.33594 1.64586 1.63281 1.34661 2 1.34661H38C38.3672 1.34661 38.6641 1.64586 38.6641 2.01598V28.8931Z" fill="#E0B47B"/>
+                  <path d="M37.1802 2.92949C37.063 2.79561 36.9067 2.70899 36.727 2.69324C36.5474 2.67749 36.3755 2.73261 36.2427 2.85074L20.8599 15.868C20.3677 16.2854 19.6411 16.2854 19.1411 15.868L3.76611 2.84286C3.58643 2.68536 3.33643 2.64599 3.10986 2.72474C2.8833 2.80349 2.71924 3.00036 2.68018 3.23661C2.64111 3.47286 2.72705 3.71698 2.90674 3.8666L18.2817 16.8996C19.2739 17.7422 20.7192 17.7422 21.7114 16.8996L37.0942 3.87448C37.227 3.75635 37.313 3.59886 37.3286 3.41773C37.3442 3.24448 37.2895 3.06336 37.1802 2.92949Z" fill="#E0B47B"/>
+                  <path d="M12.1797 17.0098L2.8438 27.0897C2.67192 27.263 2.60942 27.515 2.67974 27.7512C2.75005 27.9875 2.93755 28.1607 3.17192 28.2158C3.4063 28.271 3.6563 28.1922 3.81255 28.0032L13.1485 17.9233C13.3204 17.7501 13.3829 17.4981 13.3125 17.2618C13.2422 17.0256 13.0547 16.8523 12.8204 16.7972C12.586 16.7421 12.3438 16.8287 12.1797 17.0098Z" fill="#E0B47B"/>
+                  <path d="M27.8204 17.0099C27.6563 16.8288 27.4141 16.75 27.1797 16.7973C26.9454 16.8524 26.7579 17.0256 26.6875 17.2619C26.6172 17.4981 26.6797 17.7501 26.8516 17.9234L36.1876 28.0033C36.4376 28.2631 36.8516 28.271 37.1173 28.0269C37.3829 27.7749 37.3985 27.3575 37.1563 27.0898L27.8204 17.0099Z" fill="#E0B47B"/>
+                </svg>
+                <span class="contact-wrap__info-subtitle">info@sirolodive.net</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Leave a Message-->
+  <!--Footer-->
+  <footer class="container__black">
+    <div class="footer-wrap">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <ul class="nav footer-menu">
+              <li class="nav-item footer-menu__nav">
+                <a class="nav-link footer-menu__nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item footer-menu__nav">
+                <a class="nav-link footer-menu__nav-link" href="location.html">Location</a>
+              </li>
+              <li class="nav-item footer-menu__nav">
+                <a class="nav-link footer-menu__nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item footer-menu__nav">
+                <a class="nav-link footer-menu__nav-link" href="rooms.html">Rooms</a>
+              </li>
+              <li class="nav-item footer-menu__nav">
+                <a class="nav-link footer-menu__nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item footer-menu__nav">
+                <a class="nav-link footer-menu__nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 offset-lg-1 col-md-12 col-lg-3">
+            <div class="footer-social">
+              <a href="" class="footer-social__content footer-social__facebook">
+                <i class="fab fa-facebook-f footer-social__content-icon"></i>
+              </a>
+              <a href="" class="footer-social__content footer-social__twitter">
+                <i class="fab fa-twitter footer-social__content-icon"></i>
+              </a>
+              <a href="" class="footer-social__content footer-social__youtube">
+                <i class="fab fa-youtube footer-social__content-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-item">
+      <div class="container">
+        <div class="footer-item__content">
+          <div class="footer-item__content-pay">
+            <a href="#" class="content-pay">
+              <img class="content-pay__icon" src="./images/paypal.png" alt="PayPal">
+            </a>
+            <a href="#" class="content-pay">
+              <img class="content-pay__icon" src="./images/visa.png" alt="VISA">
+            </a>
+            <a href="#" class="content-pay">
+              <img class="content-pay__icon" src="./images/mastercard.png" alt="MasterCard">
+            </a>
+            <a href="#" class="content-pay">
+              <img class="content-pay__icon" src="./images/discover.png" alt="DISCOVER">
+            </a>
+          </div>
+          <div class="footer-item__content-text">
+            <span class="copyright-title">© 2019 -  <a class="copyright-title__link" href="#">Gothic Test Villa</a></span>
+            <span class="software-title">Vacation rental software <a class="software-title__link" href="#">by HotelEntree</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- build:js js/combined.js -->
+  <script src="./js/vendors.js" type="text/javascript"></script>
+  <script src="./js/main.js" type="text/javascript"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
