@@ -1,0 +1,184 @@
+//Slider
+.stepbooking-wrap {
+  .stepbooking-wrap__input-room {
+    padding-top: 39px;
+    .stepbooking-three__input-room {
+      margin-right: 22px;
+      .stepbooking-select__room {
+        width: 400px;
+      }
+    }
+  }
+}
+//Room
+.room-wrap {
+  padding-top: 100px;
+  display: flex;
+  margin-bottom: 56px;
+
+  .room-wrap__content {
+    margin-right: 38px;
+  }
+  .room-wrap__img {
+    max-width: 520px;
+  }
+}
+//Rooms slider
+
+.slider-room__head {
+  margin-bottom: 9px;
+  .slider-room__head-link {
+    &:focus {
+      outline: none;
+    }
+    .slider-room__head-img {
+      width: 520px;
+      height: 421px;
+
+    }
+  }
+}
+.slider-room__nav {
+  .slick-list {
+    .slick-track {
+      .slick-slide {
+        opacity: 0.5;
+        width: 124px!important;
+        height: 99px;
+        margin-right: 8px;
+        cursor: pointer;
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+      .slick-current {
+        opacity: 1;
+      }
+    }
+  }
+  .slider-room__nav-content {
+    width: 100%;
+    height: 100%;
+    &:focus {
+      outline: none;
+    }
+    .slider-room__nav-img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+//Rooms description
+.room-wrap__content {
+
+  .room-wrap__content-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #2E2E31;
+    margin-bottom: 39px;
+  }
+  .room-wrap__content-people {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    .room-people__icon {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      .room-people__icon-content {
+        margin-right: 6px;
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+    .room-people__description {
+      font-family: 'Muli', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #2E2E31;
+      display: inline-block;
+      .room-people__description-option {
+        display: inline-block;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .room-wrap__content-bed {
+    display: flex;
+    margin-bottom: 27px;
+    .room-bed {
+      display: flex;
+      align-items: center;
+      margin-right: 44px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      .room-bed__icon {
+        margin-right: 17px;
+      }
+      .room-bed__text {
+        font-family: 'Muli', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #2E2E31;
+      }
+    }
+  }
+
+  .room-wrap__content-text {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #646464;
+    margin-bottom: 20px;
+  }
+  .room-wrap__content-price {
+    display: flex;
+    flex-direction: column;
+
+    .room-price__night {
+      font-family: 'Muli', sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      color: #2E2E31;
+      margin-bottom: 10px;
+      .room-price__night-text {
+        font-weight: 400;
+      }
+    }
+    .room-price__extra {
+      font-family: 'Muli', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #646464;
+      .room-price__extra-text {
+        font-weight: bold;
+      }
+    }
+  }
+}
+//Room amenities and services
+.services-item__form {
+  display: flex;
+  flex-direction: column;
+}
+.services-item__price {
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #767676;
+}
+.apartment-wrap__margin {
+  margin-bottom: 94px;
+}

@@ -1,0 +1,139 @@
+//Contact Us Images
+.slide-container {
+  position: relative;
+
+  .slide-container__img {
+    width: 100%;
+  }
+  .slide-container__title {
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 90px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+  }
+}
+//Leave a Message
+.message-content {
+  margin-bottom: 100px;
+}
+.message-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #2E2E31;
+  display: block;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+//Leave a Message Form
+.message-form {
+  margin-bottom: 49px;
+
+  .message-form__item {
+    margin-bottom: 30px;
+
+    .message-form__item-content {
+      font-family: 'Muli', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.04em;
+      color: #A5A5A5;
+      padding: 25px 5px 22px 30px;
+      background: #F7F7F7;
+      border-radius: 5px;
+      border: none;
+      resize: none;
+
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(224, 180, 123, 0.6);
+      }
+    }
+  }
+  .message-form__item-text {
+    margin-bottom: 0;
+  }
+}
+.message-form__item-content::placeholder {
+  color: #A5A5A5;
+}
+//Send button
+.message-btn {
+
+  .message-btn__item {
+    background: #E0B47B;
+    padding: 16px 37px;
+    border-radius: 5px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &:active {
+      background: #FFFFFF;
+      color: #E0B47B;
+      border: 2px solid #E0B47B;
+      padding: 15px 36px;
+    }
+  }
+}
+//Address & Email
+.contact-wrap {
+  margin-bottom: 0;
+
+  .contact-wrap__info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 37px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .contact-wrap__info-title {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 36px;
+      color: #2E2E31;
+      display: block;
+      margin-bottom: 35px;
+    }
+    .contact-wrap__info-content {
+      display: flex;
+      align-items: center;
+
+      .contact-wrap__info-icon {
+        flex-shrink: 0;
+        margin-right: 14px;
+      }
+      .contact-wrap__info-subtitle {
+        font-family: 'Muli', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 34px;
+        color: #646464;
+        .contact-wrap__info-district {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

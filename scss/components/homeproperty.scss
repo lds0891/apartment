@@ -1,0 +1,160 @@
+//Slider
+.stepbooking-wrap {
+  .stepbooking-wrap__input {
+    .stepbooking-three__input-select {
+      margin-right: 30px;
+    }
+  }
+}
+//Our Property
+.header-property__item {
+  padding-top: 105px;
+}
+.title-property__item {
+  margin-bottom: 85px;
+}
+//Apartment villa
+.apartment-wrap {
+  margin-bottom: 136px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 120px;
+  }
+
+  .apartment-wrap__villa {
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  .apartment-wrap__room {
+    margin-bottom: 53px;
+  }
+
+  .apartment-wrap__service {
+
+  }
+}
+//Description villa
+.apartment-wrap__villa {
+  .apartment-wrap__villa-img {
+    max-width: 528px;
+    width: 100%;
+    max-height: 365px;
+    height: 100%;
+    margin-right: 71px;
+  }
+  .apartment-wrap__villa-description {
+    text-align: left;
+  }
+}
+.apartment-wrap__villa-description {
+
+  .villa-description__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #2E2E31;
+    margin-bottom: 26px;
+  }
+  .villa-description__location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .description-location__text {
+      font-family: 'Muli', sans-serif;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 34px;
+      text-transform: capitalize;
+      color: #646464;
+
+      .description-location__text-all {
+        font-weight: 600;
+      }
+    }
+
+    .villa-description__location-marker {
+      color: #E0B47B;
+      font-size: 50px;
+      margin-right: 19px;
+    }
+  }
+  .villa-description__text {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #646464;
+  }
+}
+//Services room
+.facilites-item {
+  margin-bottom: 60px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.facilites-item__title {
+  display: block;
+  margin-bottom: 36px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #2E2E31;
+}
+.facilites-item__title-service {
+  margin-bottom: 42px;
+}
+.services-item__text {
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2E2E31;
+}
+.services-item__icon {
+  margin-right: 30px;
+}
+//Icon service
+.services-icon__margin div {
+  margin-bottom: 48px;
+
+  &:nth-child(4) {
+    margin-bottom: 0;
+  }
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+.facilites-icon__margin div {
+  margin-bottom: 48px;
+
+  &:nth-child(4) {
+    margin-bottom: 0;
+  }
+  &:nth-child(5) {
+    margin-bottom: 0;
+  }
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+.amenities-icon__margin div {
+  margin-bottom: 48px;
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  &:nth-child(10) {
+    margin-bottom: 0;
+  }
+  &:nth-child(11) {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,338 @@
+//Slider
+.slider-wrap {
+  position: relative;
+
+  .slider-wrap__indicators {
+    position: absolute;
+    width: 100%;
+    right: -16px;
+    top: 92%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+
+    .slider-wrap__indicators-item {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 9px;
+      margin-right: 9px;
+    }
+  }
+  .slider-control {
+    z-index: 0;
+  }
+}
+
+.slider-wrap__content {
+  z-index: 0;
+
+  .slider-wrap__content-item {
+
+    &.active {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .slider-content__img {
+      width: 100%;
+    }
+
+    .slider-content__text {
+      top: 166px;
+
+      .slider-content__text-title {
+        display: block;
+        max-width: 725px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+        font-size: 75px;
+        line-height: 90px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 33px;
+      }
+
+      .slider-content__text-subtitle {
+        display: block;
+        font-family: 'Muli', sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.stepbooking-wrap {
+  position: absolute;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  top: 66%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .stepbooking-wrap__title {
+    display: block;
+    padding-top: 24px;
+    margin-bottom: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  .stepbooking-wrap__input {
+    display: flex;
+    margin: 0 45px 35px 43px;
+
+    .stepbooking-wrap__input-select {
+      display: flex;
+      margin-right: 20px;
+
+      .stepbooking-select {
+        width: 280px;
+        height: 60px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        font-family: 'Muli', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #2E2E31;
+        padding: 16px 32px 14px 57px;
+        border: none;
+      }
+      .datepicker-item__property {
+        width: 250px;
+      }
+      .datepicker-item__room {
+        width: 400px;
+      }
+    }
+
+    .stepbooking-wrap__input-btn {
+      background: #E0B47B;
+      border-radius: 5px;
+      font-family: 'Muli', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+      width: 162px;
+      height: 60px;
+    }
+  }
+}
+
+.slider-container {
+  position: relative;
+}
+
+//Welcome to test villa
+.villa-wrap {
+  display: flex;
+  padding-top: 124px;
+  margin-bottom: 130px;
+
+  .villa-wrap__img {
+    max-width: 480px;
+    max-height: 480px;
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    margin-right: 49px;
+  }
+
+  .villa-wrap__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px;
+  }
+}
+
+.all-header {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #E0B47B;
+  margin-bottom: 20px;
+}
+
+.all-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #2E2E31;
+  margin-bottom: 42px;
+}
+
+.content-text {
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 30px;
+  color: #646464;
+}
+//Book your appartmnet
+.header-property {
+  padding-top: 150px;
+}
+.title-property {
+  margin-bottom: 50px;
+}
+//Cards room
+.appartmnet-item {
+  margin-bottom: 30px;
+
+  .appartmnet-item__room {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .appartmnet-item__detail {
+
+  }
+
+  &:hover {
+
+    .appartmnet-item__room {
+
+      .appartmnet-item__room-img {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+    .appartmnet-item__detail {
+
+      .detail-content__view {
+        background: #DDB178;
+        color: #FFFFFF;
+        transition: .5s;
+      }
+    }
+  }
+}
+.appartmnet-item__room {
+
+  .appartmnet-item__room-img {
+    max-width: 100%;
+  }
+
+  .appartmnet-item__room-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 45px;
+    background: #2E2E31;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .appartmnet-item__room-day {
+      font-weight: normal;
+    }
+  }
+}
+.appartmnet-item__detail {
+
+  .appartmnet-item__detail-content {
+    padding-left: 20px;
+    padding-right: 12px;
+    .detail-content__title {
+      font-family: 'Muli', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: capitalize;
+      color: #2E2E31;
+      text-align: left;
+      margin-bottom: 21px;
+    }
+    .detail-content__icon {
+      margin-bottom: 21px;
+    }
+  }
+  .detail-content__view {
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #DDB178;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    border-top: 1px solid #E3E3E3;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.detail-content__icon {
+  display: flex;
+  align-items: center;
+
+  .detail-content__icon-service {
+    display: flex;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #4A4A4E;
+    margin-right: 29px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    .icon-text {
+      font-size: 18px;
+      line-height: 21px;
+      margin-left: 6px;
+      white-space: nowrap;
+    }
+
+    .icon-service__svg {
+      margin-right: 10px;
+    }
+
+    .detail-content__icon-svg {
+      margin-right: 5px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
+.property-wrap {
+  padding-bottom: 122px;
+}

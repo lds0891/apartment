@@ -1,0 +1,20 @@
+//Description date content events (margin)
+.blog-event__date-content {
+  display: flex;
+  margin-bottom: 35px;
+
+  .date-content__event {
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #646464;
+    .date-event__icon {
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+  }
+}

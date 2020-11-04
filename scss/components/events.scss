@@ -1,0 +1,53 @@
+//Description events (padding, margin, font)
+.blog-text__date-event {
+  margin-bottom: 15px;
+
+  .date-event {
+    display: flex;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #646464;
+    margin-bottom: 12px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .date-event__icon {
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+  }
+}
+.number-month {
+  display: inline-block;
+}
+
+.blog-text__title-event {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #2E2E31;
+  margin-bottom: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.blog-wrap__descpiption-event {
+  padding-top: 23px;
+  padding-bottom: 22px;
+  padding-right: 27px;
+}
+.event-wrap {
+  margin-bottom: 20px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

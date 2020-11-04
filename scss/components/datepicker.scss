@@ -1,0 +1,98 @@
+//Input datepicker
+.stepbooking-select__item {
+  position: relative;
+  margin-right: 20px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  .stepbooking-select {
+    cursor: pointer;
+
+    &::placeholder {
+      color: #2E2E31;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .select-item__icon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .datepicker-item__arrow {
+    position: absolute;
+    right: 20px;
+    top: 28px;
+  }
+}
+//Styles calendar datepicker
+#ui-datepicker-div.datepicker-home {
+  width: 280px;
+  padding: 5px 5px;
+  margin-top: 10px;
+  border: 1px solid #E0B47B;
+
+  .ui-datepicker-header {
+    border-radius: 5px;
+    padding: 5px 0;
+    background: #E0B47B;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+
+    .ui-datepicker-prev, .ui-datepicker-next {
+      color: #FFFFFF;
+      top: 4px;
+    }
+    .ui-datepicker-prev-hover, .ui-datepicker-next-hover, .ui-state-hover {
+      background: #E0B47B;
+      border: none;
+    }
+    .ui-datepicker-prev-hover {
+      left: 2px;
+    }
+    .ui-datepicker-next-hover {
+      right: 2px;
+    }
+  }
+
+  .ui-datepicker-calendar {
+    //custom week
+    thead {
+      th {
+        padding: 10px 0;
+        text-align: center;
+        font-weight: bold;
+        color: #e07b7b;
+      }
+    }
+    //custom day
+    .ui-state-default {
+      background: #FFFFFF;
+      border: 1px solid #E0B47B;
+      color: #E0B47B;
+    }
+    .ui-state-highlight {
+      border: 1px solid #E0B47B;
+      background: #E0B47B;
+      color: #FFFFFF;
+    }
+    .ui-state-hover {
+      background: #E0B47B;
+      color: #FFFFFF;
+    }
+  }
+}
+//Width datepicker on pages property
+#ui-datepicker-div.datepicker-property {
+  width: 250px;
+}
+//Width datepicker on pages room
+#ui-datepicker-div.datepicker-room {
+  width: 400px;
+}

@@ -1,0 +1,117 @@
+.blog-item {
+  padding-top: 91px;
+  padding-bottom: 100px;
+}
+.blog-wrap {
+  margin-bottom: 20px;
+
+  &:last-of-type {
+    margin-bottom: 60px;
+  }
+}
+.blog-wrap__img {
+  padding: 20px 10px 20px 20px;
+  max-width: 500px;
+  height: 100%;
+
+  .blog-wrap__img-content {
+    width: 100%;
+    height: 100%;
+  }
+}
+.blog-wrap__descpiption {
+  padding-top: 39px;
+  padding-bottom: 39px;
+  padding-right: 34px;
+}
+
+.blog-text__date {
+  display: block;
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #646464;
+  margin-bottom: 20px;
+  padding-right: 42px;
+}
+
+.blog-text__title {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #2E2E31;
+  margin-bottom: 10px;
+}
+
+.blog-text__subtitle {
+  display: block;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #646464;
+  margin-bottom: 20px;
+  padding-right: 44px;
+}
+
+.blog-wrap__descpiption-btn {
+  padding: 10px 31px 10px 31px;
+  background: #E0B47B;
+  border-radius: 5px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  &:hover {
+    color: #FFFFFF;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+  &:active {
+    background: #FFFFFF;
+    color: #E0B47B;
+    border: 1px solid #E0B47B;
+  }
+}
+//Navigation blog
+.blog-nav {
+  display: flex;
+  justify-content: center;
+
+  .blog-nav__btn {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #2E2E31;
+    margin-right: 20px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &:active {
+      color: #FFFFFF;
+      background: #E0B47B;
+    }
+  }
+}
